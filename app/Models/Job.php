@@ -17,7 +17,7 @@ class Job extends Model
     {
         $tag = Tag::firstOrCreate(["name" => $name]);
 
-        $this->tags()->attach($this);
+        $this->tags()->attach($tag);
     }
 
     public function tags(): BelongsToMany

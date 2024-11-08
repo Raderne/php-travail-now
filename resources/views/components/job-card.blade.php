@@ -6,10 +6,13 @@
     </div>
     <div class="py-8">
         <h3 class="group-hover:text-blue-600 font-bold text-xl transition-colors duration-300">
-            {{ $job->title }}
+            <a href="{{ $job->url }}" target="_blank">
+                {{ $job->employer->name }}
+            </a>
         </h3>
         <p class="text-sm mt-4">
-            {{ $job->salary }}
+
+            {{ $job->title }}
         </p>
     </div>
     <div class="flex justify-between items-center mt-auto">
@@ -19,6 +22,6 @@
             @endforeach
         </div>
 
-        <x-employer-logo :width="45" />
+        <x-employer-logo :width="45" :employer="$job->employer" />
     </div>
 </x-panel>
