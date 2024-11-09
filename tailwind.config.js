@@ -13,7 +13,8 @@ export default {
                 "hanken-grotesk": ["Hanken Grotesk", "sans-serif"],
             },
             colors: {
-                black: "#060606",
+                white: "#f3f2ec",
+                primary: "#1544ef",
             },
             fontSize: {
                 "2xs": ".625rem", // 10px
