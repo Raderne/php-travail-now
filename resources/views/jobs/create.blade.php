@@ -1,5 +1,5 @@
 <x-layout>
-    <x-page-heading>New Job</x-page-heading>
+    <x-page-heading>Nouveau poste</x-page-heading>
 
     <x-forms.form method="POST" action="/jobs">
         <x-forms.input label="Title" name="title" placeholder="CEO" />
@@ -18,6 +18,6 @@
 
         <x-forms.input label="Tags (comma separated)" name="tags" placeholder="laracasts, video, education" />
 
-        <x-forms.button>Publish</x-forms.button>
+        <x-forms.button>Publier</x-forms.button>
     </x-forms.form>
 </x-layout>
