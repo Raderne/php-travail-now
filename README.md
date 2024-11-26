@@ -101,4 +101,4 @@ To set up and run this project locally, follow these steps:
 
 ## Contact
 
-If you have any questions or would like to connect, feel free to reach out via [email](relmarzouki@gmail.com) or [LinkedIn](https://www.linkedin.com/in/reda-elmarzouki-98a89ba0/).
+If you have any questions or would like to connect, feel free to reach out via [email](mailto:relmarzouki@gmail.com) or [LinkedIn](https://www.linkedin.com/in/reda-elmarzouki-98a89ba0/).
